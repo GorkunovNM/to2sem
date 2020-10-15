@@ -17,13 +17,13 @@ namespace my_sort {
                 random_it left_son = counter + (counter - begin) + 1;
                 random_it right_son = left_son + 1;
                 if (right_son <= last_on_stage) {
-                    if (*left_son > *right_son) {
-                        if (*left_son > *counter) 
+                    if (compare(*right_son, *left_son)) {
+                        if (compare(*counter, *left_son)) 
                             std::swap(*counter, *left_son);
-                    } else if (*right_son > *counter) 
+                    } else if (compare(*counter, *right_son)) 
                         std::swap(*counter, *right_son);
                 } else if (left_son <= last_on_stage) {
-                    if (*counter < *left_son)
+                    if (compare(*counter, *left_son))
                         std::swap(*counter, *left_son);
                 }
             }

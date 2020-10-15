@@ -10,11 +10,11 @@ namespace my_sort {
         random_it counter = begin + 1;
         if (end <= counter) return;
         for (; counter != end; ++counter) {
-            auto saved = *counter;
+            auto saved = std::move(*counter);
             random_it to_swap = counter - 1;
-            for (; to_swap >= begin && !compare(*to_swap, saved); --to_swap)
-                *(to_swap + 1) = *to_swap;
-            *++to_swap = saved;
+            for (; to_swap >= begin && compare(saved, *to_swap); --to_swap)
+                *(to_swap + 1) = std::move(*to_swap);
+            *++to_swap = std::move(saved);
         }
     }
 }
