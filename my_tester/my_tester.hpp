@@ -13,6 +13,11 @@ namespace my_tester {
                       sort_ptr_tester *sorts, 
                       size_t sorts_cnt, 
                       size_t test_size);
+
+    template<typename T>
+    void rand_vector(std::vector<T> &v);
+
+    void heap_tester(size_t test_size, double &psh_time, double &pop_time);
 }
 
 #endif

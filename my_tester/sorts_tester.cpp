@@ -1,8 +1,6 @@
 #ifndef SORTS_TESTER_CPP
 #define SORTS_TESTER_CPP
 
-//#define DEBUG_MODE_IS_ON // comment definition to turn it off or uncomment to turn it on
-
 #include <functional>
 #include <vector>
 #include "../my_timer/simple_timer.cpp"
@@ -12,7 +10,7 @@ namespace my_tester {
     void sorts_tester(double *results, sort_ptr_tester *sorts, 
                       size_t sorts_cnt, size_t test_size) {
         std::vector<unsigned> v(test_size);
-        for (size_t i = 0; i < test_size; ++i) v[i] = rand();
+        rand_vector(v);
         //////////////////////////////////////
         #ifdef DEBUG_MODE_IS_ON             //
         printf("To sort: ");                //
@@ -34,6 +32,11 @@ namespace my_tester {
             #endif                                  //
             //////////////////////////////////////////
         }
+    }
+
+    template<typename T>
+    void rand_vector(std::vector<T> &v) {
+        for (auto &i: v) i = rand();
     }
 }
 
