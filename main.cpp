@@ -21,8 +21,8 @@ Github: https://github.com/akaZabey/to2sem
                                         //      (for 1e7 heap size)      //
                                         ///////////////////////////////////
 
-#define TEST_SORTS // comment to turn it off or uncomment to turn it on
-#define TEST_HEAP  // comment to turn it off or uncomment to turn it on
+#define TEST_SORTS  // comment to turn it off or uncomment to turn it on
+#define TEST_HEAP   // comment to turn it off or uncomment to turn it on
 
 enum consts {
     SIZE = 10,      // size of test vector to sort in sorts test
