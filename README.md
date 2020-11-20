@@ -1,3 +1,3 @@
 Hello!<br>
-Check: [Documentation](html/index.html)<br>
+Check: [documentation](https://akazabey.github.io.).<br>
 Thanks for attention.
