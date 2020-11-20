@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['get_5fmost_7',['get_most',['../classmy__struct_1_1heap.html#a3067f5204277fe8fc833da377f6b5da8',1,'my_struct::heap']]]
+  ['finish_6',['finish',['../classmy__timer_1_1simple__timer.html#a8ad141182468348190f4d662b25c3cc6',1,'my_timer::simple_timer']]],
+  ['function_5fit_5fcmp_7',['function_it_cmp',['../structmy__tester_1_1function__it__cmp.html',1,'my_tester']]]
 ];

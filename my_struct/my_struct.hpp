@@ -10,9 +10,9 @@ namespace my_struct {
     /// \tparam  comparator - comparison function.
     /// \private data    - contains elements of the heap
     /// \private compare - comparison function object (i.e. an object 
-    ///                    that satisfies the requirements of [Compare](
+    ///                    that satisfies the requirements of 
     ///                    https://en.cppreference.com/w/cpp/named_req/Compare
-    ///                    )).
+    ///                    ).
     /// \class   heap my_struct.hpp "my_struct/heap.hpp"
     /// \brief   Simple structure.
     ///////////////////////////////////////////////////////////////////////////

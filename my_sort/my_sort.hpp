@@ -21,9 +21,9 @@ namespace my_sort {
     /// \param  end     - end of the range of elements to sort, 
     ///                   must be RandomAccessIterator.
     /// \param  compare - comparison function object (i.e. an object 
-    ///                   that satisfies the requirements of [Compare](
+    ///                   that satisfies the requirements of 
     ///                   https://en.cppreference.com/w/cpp/named_req/Compare
-    ///                   )).
+    ///                   ).
     /// \return -
     /// \brief  Sort function. Works in O((end - begin)^2).
     ///////////////////////////////////////////////////////////////////////////
@@ -39,9 +39,9 @@ namespace my_sort {
     /// \param  end     - end of the range of elements to sort, 
     ///                   must be RandomAccessIterator.
     /// \param  compare - comparison function object (i.e. an object 
-    ///                   that satisfies the requirements of [Compare](
+    ///                   that satisfies the requirements of 
     ///                   https://en.cppreference.com/w/cpp/named_req/Compare
-    ///                   )).
+    ///                   ).
     /// \return -
     /// \brief  Sort function. Works in O((end - begin)^2).
     ///////////////////////////////////////////////////////////////////////////
@@ -57,9 +57,9 @@ namespace my_sort {
     /// \param  end     - end of the range of elements to sort, 
     ///                   must be RandomAccessIterator.
     /// \param  compare - comparison function object (i.e. an object 
-    ///                   that satisfies the requirements of [Compare](
+    ///                   that satisfies the requirements of 
     ///                   https://en.cppreference.com/w/cpp/named_req/Compare
-    ///                   )).
+    ///                   ).
     /// \return -
     /// \brief  Sort function. Works in O((end - begin)^2).
     ///////////////////////////////////////////////////////////////////////////
@@ -75,9 +75,9 @@ namespace my_sort {
     /// \param  end     - end of the range of elements to sort, 
     ///                   must be RandomAccessIterator.
     /// \param  compare - comparison function object (i.e. an object 
-    ///                   that satisfies the requirements of [Compare](
+    ///                   that satisfies the requirements of 
     ///                   https://en.cppreference.com/w/cpp/named_req/Compare
-    ///                   )).
+    ///                   ).
     /// \return -
     /// \brief  Sort function. Works in O((end - begin)log(end - begin)).
     ///////////////////////////////////////////////////////////////////////////
@@ -93,9 +93,9 @@ namespace my_sort {
     /// \param  end     - end of the range of elements to sort, 
     ///                   must be RandomAccessIterator.
     /// \param  compare - comparison function object (i.e. an object 
-    ///                   that satisfies the requirements of [Compare](
+    ///                   that satisfies the requirements of 
     ///                   https://en.cppreference.com/w/cpp/named_req/Compare
-    ///                   )).
+    ///                   ).
     /// \return -
     /// \brief  Sort function. Works in O((end - begin)log(end - begin)).
     ///////////////////////////////////////////////////////////////////////////
@@ -111,9 +111,9 @@ namespace my_sort {
     /// \param  end     - end of the range of elements to sort, 
     ///                   must be RandomAccessIterator.
     /// \param  compare - comparison function object (i.e. an object 
-    ///                   that satisfies the requirements of [Compare](
+    ///                   that satisfies the requirements of 
     ///                   https://en.cppreference.com/w/cpp/named_req/Compare
-    ///                   )).
+    ///                   ).
     /// \return -
     /// \brief  Sort function. Works in O(end - begin) 
     ///         (or in O((end - begin) * (size of element's type in bits))).

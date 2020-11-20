@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['merge_5fsort_5fcpp_99',['MERGE_SORT_CPP',['../merge__sort_8cpp.html#a8ddbce26e60e74fe1c7c80050907ddfc',1,'merge_sort.cpp']]]
+  ['insertion_5fsort_5fcpp_110',['INSERTION_SORT_CPP',['../insertion__sort_8cpp.html#a5fcc4bd640a1d891343ca8961b7a6f4d',1,'insertion_sort.cpp']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['pop_5fmost_33',['pop_most',['../classmy__struct_1_1heap.html#acf98648abbfd1fa3d4ef11ab0048e71e',1,'my_struct::heap']]],
-  ['push_34',['push',['../classmy__struct_1_1heap.html#a29c83715a894752c40e409d387ac487a',1,'my_struct::heap']]]
+  ['operator_35',['operator',['../classmy__struct_1_1heap.html#a3330e79d7810facf5c3111ae7627b9cb',1,'my_struct::heap']]],
+  ['operator_3c_3c_36',['operator&lt;&lt;',['../namespacemy__struct.html#a360da0d741f2692f978351d5cc3d5003',1,'my_struct']]]
 ];
